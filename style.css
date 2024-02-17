@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Neucha&family=Ruthie&family=Work+Sans:ital,wght@1,200;1,300;1,400;1,800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Lakki+Reddy&family=Neucha&family=Ruthie&family=Work+Sans:ital,wght@1,200;1,300;1,400;1,800&display=swap');
+
+
+
+@font-face {
+    font-family: 'papel';
+    src: url('Fontes/Hashira_Mt.otf'), url(Hashira_Mt.ttf);
+    font-weight: normal;
+    font-style: normal; }
+
+@font-face {
+    font-family: 'subti';
+    src: url(Fontes/CedarvilleCursive-Regular.ttf), url(CedarvilleCursive-Regular.ttf);
+    font-weight: normal;
+    font-style: normal; }
+
+@font-face {
+    font-family: 'sub2';
+    src: url(Fontes/OoohBaby-Regular.ttf), url(/projeto2/Fontes/OoohBaby-Regular.ttf); 
+    font-weight: normal;
+    font-style: normal; 
+}    
+
+@font-face {
+    font-family: 'text';
+    src: url(Fontes/DarkerGrotesque-VariableFont_wght.ttf), url(Fontes/DarkerGrotesque-VariableFont_wght.ttf);
+    font-weight: normal;
+    font-style: normal; 
+}
+
+    :root {
+
+        --fonte-titulo:'papel', 'cursive';
+        --fonte-padrão: arial, verdana, helvetica, sans-serif;
+        --font-sub: 'subti', 'cursive';
+        --font-sub2: 'sub2', 'cursive';
+        --font-text: 'text', 'cursive';
+    }
+
+body {
+    background-image:linear-gradient(to right, rgb(243, 205, 123) 0.5%, transparent);
+    font-family: var(--font-text);
+}
+
+header    {
+    background-image: linear-gradient(to top, transparent 20%, rgb(239, 239, 209));;
+    color: rgb(56, 60, 34);
+    padding: 3%;
+    margin: 1%;
+    border-radius: 8%;
+}
+
+header > h1 {
+    font-family: var(--fonte-titulo);
+    text-align: center;
+    font-size: 5em;
+}
+
+header > p {
+    font-family: var(--font-sub);
+    text-align: center;
+    font-size: 25px;
+}
+
+nav {
+    margin: 0.8%;
+    display: block 100%;
+    padding: auto;
+    box-shadow: 0px 2px 0px rgba(233, 233, 80, 0.205);
+    text-align: center;
+}
+
+nav > a {
+    color: rgb(105, 55, 18);
+    padding: 14px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.7s;
+    font-size: 15px;
+    font-family: var(--fonte-padrão); 
+}
+
+nav > a:hover {
+    background-color: rgb(236, 168, 24);
+}
+  
+main {
+    color: rgb(56, 60, 34);
+    padding: 3%;
+    margin: 1%;
+    border-radius: 8%;
+}
+
+
+main > article {
+    background-color: rgb(239, 228, 177);
+    padding: 40px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    box-shadow: 10px 12px 10px rgba(25, 25, 1, 0.112);
+}
+
+
+main > article > img {
+    max-width: 250px;
+    display: block;
+    margin: auto;
+    border-radius: 20%;
+ }
+ 
+main > article > h1, h2 {
+    background-image: linear-gradient(to left, transparent 20%, rgba(224, 157, 12, 0.486));
+    color: aliceblue;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding: center;
+    text-align: center;
+    font-size: 30px;
+    font-family: var(--fonte-titulo);
+    border-radius: 43%;
+
+}
+
+img:hover{
+    background-color: rgb(236, 175, 7);
+}
+
+main > article > h4{
+    margin-top: 25px;
+    margin-bottom: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 8px;
+    text-align: center;
+    font-size: 22px;
+    font-family: var(--font-sub);
+    color: rgb(105, 55, 18);
+}
+
+
+main > article > p {
+    text-align: justify; 
+    font-size: 20px;
+    margin-inline-start: 10px;
+    padding-left: auto;
+    padding-right: auto;
+    padding-bottom: 5%;
+    padding-top: 1%;
+}
+
+picture > img.desenho {
+    width: 22%;
+    display: block;
+    margin: 0px auto;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+
+picture > p { 
+    text-align: center;
+    font-size: 16px;
+    text-decoration: underline;
+    color: brown;
+}
+
+
+div > img {
+    width: 250px;
+    text-align-last: auto;
+    border: 5%;
+    margin: 2%;
+    border-radius: 15%;
+}
+
+footer {
+
+    max-width: auto;
+    text-align: center;
+    margin: 100px;
+    font-family: var(--font-sub1);
+}
